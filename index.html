@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+  <h1 class="text-center text-light my-3 mx-3"> GIPHY PARTY</h1>
+  <div class="container">
+    <form class="row form-group">
+      <div class="justify-content-center d-inline-flex">
+      <input type="text" required class="form control" id="search-box" placeholder="Enter a search item" >
+      <button type="submit" class="btn btn-light btn-sm mx-2">Search</button>
+      <button id="remove" class="btn btn-danger btn-sm text-nowrap">Remove All</button>
+      </div>
+    </form>
+  <div id="gifs" class="row m-auto"></div>
+  </div>
+<script src="https://unpkg.com/popper"></script>
+<script src="https://unpkg.com/bootstrap"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
